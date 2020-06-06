@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dataScrapper">
+<test name="Swiss_County">
+	<parameter name="resortName" value="Swiss_County"/>
+	<parameter name="resortID" value="201210091414025506"/>
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+        <class name="suite.dScraper" ></class>  
+    </classes>
+</test>
+<test name="Misty_Mountain">
+	<parameter name="resortName" value="Misty_Mountain"/>
+	<parameter name="resortID" value="200902182015117181"/>
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+        <class name="suite.dScraper" ></class>  
+    </classes>
+</test>
+<test name="Tea_Valley">
+	<parameter name="resortName" value="Tea_Valley"/>
+	<parameter name="resortID" value="200805081709579510"/>
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+        <class name="suite.dScraper" ></class>  
+    </classes>
+</test>
+</suite>

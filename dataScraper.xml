@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Main suite" parallel="instances" thread-count="2">
+
+<suite-files>
+<suite-file path="suiteA.xml"/>
+<suite-file path="suiteB.xml"/>
+</suite-files>
+
+</suite>

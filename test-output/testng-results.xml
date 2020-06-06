@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dataScrapper" duration-ms="1931300" started-at="2020-06-06T14:44:33 IST" finished-at="2020-06-06T15:16:45 IST">
+    <groups>
+    </groups>
+    <test name="Swiss_County" duration-ms="257826" started-at="2020-06-06T14:44:33 IST" finished-at="2020-06-06T14:48:51 IST">
+      <class name="suite.dScraper">
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@17211155]" name="setupDriver" is-config="true" duration-ms="48015" started-at="2020-06-06T14:44:33 IST" finished-at="2020-06-06T14:45:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swiss_County]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201210091414025506]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@17211155]" name="dataScrapper" duration-ms="207875" started-at="2020-06-06T14:45:22 IST" finished-at="2020-06-06T14:48:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataScrapper -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@17211155]" name="afterTest" is-config="true" duration-ms="1312" started-at="2020-06-06T14:48:50 IST" finished-at="2020-06-06T14:48:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- suite.dScraper -->
+    </test> <!-- Swiss_County -->
+    <test name="Misty_Mountain" duration-ms="1077332" started-at="2020-06-06T14:48:52 IST" finished-at="2020-06-06T15:06:50 IST">
+      <class name="suite.dScraper">
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@382db087]" name="setupDriver" is-config="true" duration-ms="18704" started-at="2020-06-06T14:48:52 IST" finished-at="2020-06-06T14:49:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Misty_Mountain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200902182015117181]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@382db087]" name="dataScrapper" duration-ms="1058228" started-at="2020-06-06T14:49:11 IST" finished-at="2020-06-06T15:06:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataScrapper -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@382db087]" name="afterTest" is-config="true" duration-ms="382" started-at="2020-06-06T15:06:49 IST" finished-at="2020-06-06T15:06:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- suite.dScraper -->
+    </test> <!-- Misty_Mountain -->
+    <test name="Tea_Valley" duration-ms="595091" started-at="2020-06-06T15:06:50 IST" finished-at="2020-06-06T15:16:45 IST">
+      <class name="suite.dScraper">
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@3d0f8e03]" name="setupDriver" is-config="true" duration-ms="17952" started-at="2020-06-06T15:06:50 IST" finished-at="2020-06-06T15:07:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tea_Valley]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200805081709579510]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@3d0f8e03]" name="dataScrapper" duration-ms="575804" started-at="2020-06-06T15:07:08 IST" finished-at="2020-06-06T15:16:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataScrapper -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@3d0f8e03]" name="afterTest" is-config="true" duration-ms="1330" started-at="2020-06-06T15:16:43 IST" finished-at="2020-06-06T15:16:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- suite.dScraper -->
+    </test> <!-- Tea_Valley -->
+  </suite> <!-- dataScrapper -->
+</testng-results>

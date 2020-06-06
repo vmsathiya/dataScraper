@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dataScrapper">
+<test name="Rivulet_Resort">
+	<parameter name="resortName" value="Rivulet_Resort"/>
+	<parameter name="resortID" value="20130819114553793"/>
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+        <class name="suite.dScraper" ></class>  
+    </classes>
+</test>
+<test name="KTDC_Tea_County">
+	<parameter name="resortName" value="KTDC_Tea_County"/>
+	<parameter name="resortID" value="200706201515497476"/>
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+        <class name="suite.dScraper" ></class>  
+    </classes>
+</test>
+<test name="Munnar_Tea_Country">
+	<parameter name="resortName" value="Munnar_Tea_Country"/>
+	<parameter name="resortID" value="20150109094510946"/>
+	<parameter name="browserName" value="Chrome"/>
+    <classes>
+        <class name="suite.dScraper" ></class>  
+    </classes>
+</test>
+</suite>
