@@ -1,0 +1,16 @@
+Register username with Git:
+git config --global user.name "<github username>"
+
+Register email with Git:
+git config --global user.email "<github emailid>"
+
+git init
+
+git status
+
+Move to staging:
+gid add .
+
+git commit -m "first commit"
+git remote add origin https://github.com/vmsathiya/dataScraper.git
+git push -u origin master
