@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [dataScrapper (0)]">
-  <test thread-count="5" name="Misty_Mountain(failed)">
-    <parameter name="resortName" value="Misty_Mountain"/>
-    <parameter name="resortID" value="200902182015117181"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dataScrapper]">
+  <test thread-count="5" name="Rivulet_Resort(failed)">
+    <parameter name="resortName" value="Rivulet_Resort"/>
+    <parameter name="resortID" value="20130819114553793"/>
     <parameter name="browserName" value="Chrome"/>
     <classes>
       <class name="suite.dScraper">
@@ -14,10 +14,10 @@
         </methods>
       </class> <!-- suite.dScraper -->
     </classes>
-  </test> <!-- Misty_Mountain(failed) -->
-  <test thread-count="5" name="Tea_Valley(failed)">
-    <parameter name="resortName" value="Tea_Valley"/>
-    <parameter name="resortID" value="200805081709579510"/>
+  </test> <!-- Rivulet_Resort(failed) -->
+  <test thread-count="5" name="KTDC_Tea_County(failed)">
+    <parameter name="resortName" value="KTDC_Tea_County"/>
+    <parameter name="resortID" value="200706201515497476"/>
     <parameter name="browserName" value="Chrome"/>
     <classes>
       <class name="suite.dScraper">
@@ -28,5 +28,19 @@
         </methods>
       </class> <!-- suite.dScraper -->
     </classes>
-  </test> <!-- Tea_Valley(failed) -->
-</suite> <!-- Failed suite [dataScrapper (0)] -->
+  </test> <!-- KTDC_Tea_County(failed) -->
+  <test thread-count="5" name="Munnar_Tea_Country(failed)">
+    <parameter name="resortName" value="Munnar_Tea_Country"/>
+    <parameter name="resortID" value="20150109094510946"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="suite.dScraper">
+        <methods>
+          <include name="dataScrapper"/>
+          <include name="afterTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- suite.dScraper -->
+    </classes>
+  </test> <!-- Munnar_Tea_Country(failed) -->
+</suite> <!-- Failed suite [dataScrapper] -->

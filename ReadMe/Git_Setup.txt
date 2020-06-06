@@ -14,3 +14,5 @@ gid add .
 git commit -m "first commit"
 git remote add origin https://github.com/vmsathiya/dataScraper.git
 git push -u origin master
+
+git remote set-url origin https://github.com/vmsathiya/dataScraper.git

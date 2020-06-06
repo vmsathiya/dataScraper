@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="dataScrapper" duration-ms="1931300" started-at="2020-06-06T14:44:33 IST" finished-at="2020-06-06T15:16:45 IST">
+  <suite name="dataScrapper" duration-ms="874979" started-at="2020-06-06T21:51:44 IST" finished-at="2020-06-06T22:06:19 IST">
     <groups>
     </groups>
-    <test name="Swiss_County" duration-ms="257826" started-at="2020-06-06T14:44:33 IST" finished-at="2020-06-06T14:48:51 IST">
+    <test name="Rivulet_Resort" duration-ms="298313" started-at="2020-06-06T21:51:44 IST" finished-at="2020-06-06T21:56:42 IST">
       <class name="suite.dScraper">
-        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@17211155]" name="setupDriver" is-config="true" duration-ms="48015" started-at="2020-06-06T14:44:33 IST" finished-at="2020-06-06T14:45:21 IST">
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@17211155]" name="setupDriver" is-config="true" duration-ms="33307" started-at="2020-06-06T21:51:44 IST" finished-at="2020-06-06T21:52:17 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Swiss_County]]>
+                <![CDATA[Rivulet_Resort]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[201210091414025506]]>
+                <![CDATA[20130819114553793]]>
               </value>
             </param>
             <param index="2">
@@ -28,28 +28,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@17211155]" name="dataScrapper" duration-ms="207875" started-at="2020-06-06T14:45:22 IST" finished-at="2020-06-06T14:48:50 IST">
+        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@17211155]" name="dataScrapper" duration-ms="262661" started-at="2020-06-06T21:52:19 IST" finished-at="2020-06-06T21:56:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataScrapper -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@17211155]" name="afterTest" is-config="true" duration-ms="1312" started-at="2020-06-06T14:48:50 IST" finished-at="2020-06-06T14:48:51 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@17211155]" name="afterTest" is-config="true" duration-ms="711" started-at="2020-06-06T21:56:42 IST" finished-at="2020-06-06T21:56:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- suite.dScraper -->
-    </test> <!-- Swiss_County -->
-    <test name="Misty_Mountain" duration-ms="1077332" started-at="2020-06-06T14:48:52 IST" finished-at="2020-06-06T15:06:50 IST">
+    </test> <!-- Rivulet_Resort -->
+    <test name="KTDC_Tea_County" duration-ms="356663" started-at="2020-06-06T21:56:43 IST" finished-at="2020-06-06T22:02:40 IST">
       <class name="suite.dScraper">
-        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@382db087]" name="setupDriver" is-config="true" duration-ms="18704" started-at="2020-06-06T14:48:52 IST" finished-at="2020-06-06T14:49:11 IST">
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@382db087]" name="setupDriver" is-config="true" duration-ms="21305" started-at="2020-06-06T21:56:43 IST" finished-at="2020-06-06T21:57:05 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Misty_Mountain]]>
+                <![CDATA[KTDC_Tea_County]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[200902182015117181]]>
+                <![CDATA[200706201515497476]]>
               </value>
             </param>
             <param index="2">
@@ -61,28 +61,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@382db087]" name="dataScrapper" duration-ms="1058228" started-at="2020-06-06T14:49:11 IST" finished-at="2020-06-06T15:06:49 IST">
+        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@382db087]" name="dataScrapper" duration-ms="334894" started-at="2020-06-06T21:57:05 IST" finished-at="2020-06-06T22:02:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataScrapper -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@382db087]" name="afterTest" is-config="true" duration-ms="382" started-at="2020-06-06T15:06:49 IST" finished-at="2020-06-06T15:06:50 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@382db087]" name="afterTest" is-config="true" duration-ms="457" started-at="2020-06-06T22:02:40 IST" finished-at="2020-06-06T22:02:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- suite.dScraper -->
-    </test> <!-- Misty_Mountain -->
-    <test name="Tea_Valley" duration-ms="595091" started-at="2020-06-06T15:06:50 IST" finished-at="2020-06-06T15:16:45 IST">
+    </test> <!-- KTDC_Tea_County -->
+    <test name="Munnar_Tea_Country" duration-ms="218695" started-at="2020-06-06T22:02:40 IST" finished-at="2020-06-06T22:06:19 IST">
       <class name="suite.dScraper">
-        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@3d0f8e03]" name="setupDriver" is-config="true" duration-ms="17952" started-at="2020-06-06T15:06:50 IST" finished-at="2020-06-06T15:07:08 IST">
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suite.dScraper@3d0f8e03]" name="setupDriver" is-config="true" duration-ms="22285" started-at="2020-06-06T22:02:40 IST" finished-at="2020-06-06T22:03:03 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Tea_Valley]]>
+                <![CDATA[Munnar_Tea_Country]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[200805081709579510]]>
+                <![CDATA[20150109094510946]]>
               </value>
             </param>
             <param index="2">
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@3d0f8e03]" name="dataScrapper" duration-ms="575804" started-at="2020-06-06T15:07:08 IST" finished-at="2020-06-06T15:16:43 IST">
+        <test-method status="PASS" signature="dataScrapper()[pri:0, instance:suite.dScraper@3d0f8e03]" name="dataScrapper" duration-ms="195223" started-at="2020-06-06T22:03:03 IST" finished-at="2020-06-06T22:06:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataScrapper -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@3d0f8e03]" name="afterTest" is-config="true" duration-ms="1330" started-at="2020-06-06T15:16:43 IST" finished-at="2020-06-06T15:16:45 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:suite.dScraper@3d0f8e03]" name="afterTest" is-config="true" duration-ms="1183" started-at="2020-06-06T22:06:18 IST" finished-at="2020-06-06T22:06:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- suite.dScraper -->
-    </test> <!-- Tea_Valley -->
+    </test> <!-- Munnar_Tea_Country -->
   </suite> <!-- dataScrapper -->
 </testng-results>
