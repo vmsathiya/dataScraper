@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="dataScrapper">
+<suite name="dataScraper" parallel="tests">
 <test name="Swiss_County">
 	<parameter name="resortName" value="Swiss_County"/>
 	<parameter name="resortID" value="201210091414025506"/>

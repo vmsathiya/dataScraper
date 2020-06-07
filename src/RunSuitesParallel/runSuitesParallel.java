@@ -11,7 +11,7 @@ public class runSuitesParallel {
 	public static void main(String[] args) {
 		TestNG testng = new TestNG();
 		List<String> suites = new ArrayList<String>();
-		suites.add("dataScraper.xml");
+		suites.add(System.getProperty("user.dir")  + "//dataScraper.xml");
  		//testng.setTestSuites(Arrays.asList(new String[] {System.getProperty("user.dir") + "//testng.xml"}));
 		testng.setTestSuites(suites);
 		testng.setSuiteThreadPoolSize(2);

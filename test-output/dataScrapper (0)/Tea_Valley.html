@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 06 14:34:33 IST 2020</td>
+<td>Started on:</td><td>Sun Jun 07 17:42:31 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>221 seconds (221504 ms)</td>
+<tr><td>Total time:</td><td>110 seconds (110884 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,35 +77,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='suite.dScraper.setupDriver()'><b>setupDriver</b><br>Test class: suite.dScraper<br>Parameters: Tea_Valley, 200805081709579510, Chrome</td>
 <td><div><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
 
-Command duration or timeout: 210.37 seconds
+Command duration or timeout: 103.65 seconds
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
@@ -127,135 +104,93 @@ Command duration or timeout: 210.37 seconds
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
-	at suite.dScraper.setupDriver(dScraper.java:48)
+	at suite.dScraper.setupDriver(dScraper.java:54)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
 
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
 Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.server.ServicedSession$Factory.apply(ServicedSession.java:232)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$11(ActiveSessionFactory.java:167)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:170)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$1(NewSessionPipeline.java:44)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Collections$2.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$2(NewSessionPipeline.java:47)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
-	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:50)
-	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:77)
-	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:240)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	... 3 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1701601392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1701601392'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1181422709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1181422709'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
 
-Command duration or timeout: 210.37 seconds
+Command duration or timeout: 103.65 seconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -281,7 +216,7 @@ Command duration or timeout: 210.37 seconds
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
-	at suite.dScraper.setupDriver(dScraper.java:48)
+	at suite.dScraper.setupDriver(dScraper.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -294,114 +229,93 @@ Command duration or timeout: 210.37 seconds
 	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
 	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
 
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
 Driver info: driver.version: unknown
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.server.ServicedSession$Factory.apply(ServicedSession.java:232)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$11(ActiveSessionFactory.java:167)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:170)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$1(NewSessionPipeline.java:44)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Collections$2.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$2(NewSessionPipeline.java:47)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
-	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:50)
-	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:77)
-	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:240)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	... 3 more
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>220</td>
+<td>110</td>
 <td>suite.dScraper@6325a3ee</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -414,107 +328,8 @@ Driver info: driver.version: unknown
 <tr>
 <td title='suite.dScraper.afterTest()'><b>afterTest</b><br>Test class: suite.dScraper</td>
 <td></td>
-<td>-1591434494</td>
+<td>-1591532061</td>
 <td>suite.dScraper@6325a3ee</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='suite.dScraper.dataScrapper()'><b>dataScrapper</b><br>Test class: suite.dScraper</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;detpg_review_ratings_pagination&apos;]/ul&quot;}
-  (Session info: chrome=83.0.4103.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dharun\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cf26f466091ee4ab1c64ac0528c11baa
-*** Element info: {Using=xpath, value=//div[@id=&apos;detpg_review_ratings_pagination&apos;]/ul}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at suite.dScraper.gotoNextPage(dScraper.java:123)
-	at suite.dScraper.dataScrapper(dScraper.java:98)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2051490171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2051490171'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;detpg_review_ratings_pagination&apos;]/ul&quot;}
-  (Session info: chrome=83.0.4103.97)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dharun\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64219}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cf26f466091ee4ab1c64ac0528c11baa
-*** Element info: {Using=xpath, value=//div[@id=&apos;detpg_review_ratings_pagination&apos;]/ul}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at suite.dScraper.gotoNextPage(dScraper.java:123)
-	at suite.dScraper.dataScrapper(dScraper.java:98)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>1098</td>
-<td>suite.dScraper@731a74c</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='suite.dScraper.dataScrapper()'><b>dataScrapper</b><br>Test class: suite.dScraper</td>
-<td></td>
-<td>268</td>
-<td>suite.dScraper@eec5a4a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -526,35 +341,12 @@ Session ID: cf26f466091ee4ab1c64ac0528c11baa
 <tr>
 <td title='suite.dScraper.dataScrapper()'><b>dataScrapper</b><br>Test class: suite.dScraper</td>
 <td><div><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;bb0d8b111962&apos;, ip: &apos;172.19.0.8&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x55c47d71b579 &lt;unknown&gt;
 
-Command duration or timeout: 210.37 seconds
+Command duration or timeout: 103.35 seconds
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
@@ -576,135 +368,93 @@ Command duration or timeout: 210.37 seconds
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
-	at suite.dScraper.setupDriver(dScraper.java:48)
+	at suite.dScraper.setupDriver(dScraper.java:54)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;bb0d8b111962&apos;, ip: &apos;172.19.0.8&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x55c47d71b579 &lt;unknown&gt;
 
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
 Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.server.ServicedSession$Factory.apply(ServicedSession.java:232)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$11(ActiveSessionFactory.java:167)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:170)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$1(NewSessionPipeline.java:44)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Collections$2.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$2(NewSessionPipeline.java:47)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
-	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:50)
-	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:77)
-	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:240)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	... 3 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace263384984", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace263384984'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace750443090", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace750443090'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;bb0d8b111962&apos;, ip: &apos;172.19.0.8&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x55c47d71b579 &lt;unknown&gt;
 
-Command duration or timeout: 210.37 seconds
+Command duration or timeout: 103.35 seconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -730,7 +480,7 @@ Command duration or timeout: 210.37 seconds
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
-	at suite.dScraper.setupDriver(dScraper.java:48)
+	at suite.dScraper.setupDriver(dScraper.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -743,52 +493,107 @@ Command duration or timeout: 210.37 seconds
 	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
 	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;bb0d8b111962&apos;, ip: &apos;172.19.0.8&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
 Driver info: driver.version: unknown
-remote stacktrace: Backtrace:
-	Ordinal0 [0x004B9563+2725219]
-	Ordinal0 [0x003B8551+1672529]
-	Ordinal0 [0x002A0359+525145]
-	Ordinal0 [0x002301A9+65961]
-	Ordinal0 [0x0022D2A8+53928]
-	Ordinal0 [0x0024CC37+183351]
-	Ordinal0 [0x0024CA3D+182845]
-	Ordinal0 [0x0024A94B+174411]
-	Ordinal0 [0x00232528+75048]
-	Ordinal0 [0x002335A0+79264]
-	Ordinal0 [0x00233539+79161]
-	Ordinal0 [0x003CD607+1758727]
-	GetHandleVerifier [0x005D6546+1050150]
-	GetHandleVerifier [0x005D6291+1049457]
-	GetHandleVerifier [0x005E10D7+1094071]
-	GetHandleVerifier [0x005D6B46+1051686]
-	Ordinal0 [0x003C5B06+1727238]
-	Ordinal0 [0x003CEB7B+1764219]
-	Ordinal0 [0x003CECE3+1764579]
-	Ordinal0 [0x003E4C05+1854469]
-	BaseThreadInitThunk [0x75436359+25]
-	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
-	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+remote stacktrace: #0 0x55c47d71b579 &lt;unknown&gt;
 
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
-System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
 Driver info: driver.version: unknown
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>suite.dScraper@eec5a4a</td></tr>
+<tr>
+<td title='suite.dScraper.dataScrapper()'><b>dataScrapper</b><br>Test class: suite.dScraper</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
+
+Command duration or timeout: 103.65 seconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
 	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
 	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
@@ -801,12 +606,108 @@ Driver info: driver.version: unknown
 	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.server.ServicedSession$Factory.apply(ServicedSession.java:232)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$11(ActiveSessionFactory.java:167)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at suite.dScraper.setupDriver(dScraper.java:54)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
+
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1349826896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1349826896'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
+
+Command duration or timeout: 103.65 seconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
 	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
 	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
 	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
 	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
@@ -815,43 +716,357 @@ Driver info: driver.version: unknown
 	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
 	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
 	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:170)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$1(NewSessionPipeline.java:44)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Collections$2.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$2(NewSessionPipeline.java:47)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
-	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
-	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:50)
-	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:77)
-	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:240)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at suite.dScraper.setupDriver(dScraper.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
-	... 3 more
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;a8cd764107b1&apos;, ip: &apos;172.19.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x562ce0c01579 &lt;unknown&gt;
+
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
 <td>0</td>
 <td>suite.dScraper@6325a3ee</td></tr>
+<tr>
+<td title='suite.dScraper.dataScrapper()'><b>dataScrapper</b><br>Test class: suite.dScraper</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;574bf37e2930&apos;, ip: &apos;172.19.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x5572854d0579 &lt;unknown&gt;
+
+Command duration or timeout: 111.86 seconds
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at suite.dScraper.setupDriver(dScraper.java:54)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;574bf37e2930&apos;, ip: &apos;172.19.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x5572854d0579 &lt;unknown&gt;
+
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669559928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace669559928'><pre>org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;574bf37e2930&apos;, ip: &apos;172.19.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x5572854d0579 &lt;unknown&gt;
+
+Command duration or timeout: 111.86 seconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:155)
+	at suite.dScraper.setupDriver(dScraper.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;574bf37e2930&apos;, ip: &apos;172.19.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.154-boot2docker&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x5572854d0579 &lt;unknown&gt;
+
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;DESKTOP-RI9OTG3&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+	at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:440)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Collections$2.tryAdvance(Collections.java:4719)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:175)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:405)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:728)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+	at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+	at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>suite.dScraper@731a74c</td></tr>
 </table><p>
 </body>
 </html>

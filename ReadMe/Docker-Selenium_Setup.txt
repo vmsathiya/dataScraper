@@ -1,0 +1,21 @@
+1) Create a file docker-compose.yaml with Required config
+ Ref: https://github.com/SeleniumHQ/docker-selenium
+
+2) Install Docket from dockerhub
+     Windows 10 Professional or Enterprise 64-bit.
+          https://hub.docker.com/editions/community/docker-ce-desktop-windows/
+      For previous versions get Docker Toolbox.
+          https://docs.docker.com/toolbox/toolbox_install_windows/
+          
+3) Run docker-compose.yaml to create grid hub/node containers from dockerhub
+ 	docker-compose -f docker-compose.yaml up
+
+4) To check hub & nodes running state:   
+      /* To get docker machine ip 
+		$ docker-machine ip
+		192.168.99.100 */
+     http://192.168.99.100:4444/wd/hub
+
+5) To add additional containers
+	docker-compose scale chrome=3
+	docker-compose scale firefox=3

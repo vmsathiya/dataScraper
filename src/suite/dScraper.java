@@ -44,8 +44,14 @@ public class dScraper {
 			cap = DesiredCapabilities.firefox();
 		}
 	
-		cap.setPlatform(Platform.WINDOWS);
+		//cap.setPlatform(Platform.WINDOWS);
+		/* If we run on grid with out Docker container
 		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+    	*/
+		/* To get docker machine ip 
+		$ docker-machine ip
+		192.168.99.100 */
+		driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get(URL);
@@ -130,7 +136,6 @@ public class dScraper {
 				 if (strnew.equals("disabled")) {
 					 return false;
 				 } else {
-					 System.out.println("Tag Value : " + driver.findElement(By.xpath("//div[@id='detpg_review_ratings_pagination']/ul/li[" + j + "]/a")).getText());
 					 driver.findElement(By.xpath("//div[@id='detpg_review_ratings_pagination']/ul/li[" + j + "]/a")).click();
 					 return true;
 				 }

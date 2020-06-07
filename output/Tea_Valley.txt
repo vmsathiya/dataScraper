@@ -418,9 +418,9 @@ Tea_Valley : 418 : Very good : Beautiful location with clean rooms n good breakf
 Tea_Valley : 419 : Very good property : Excellent getaway for all people. Good view of the alley perched on the edges with plenty of Tea estates and good friendly staff
 Tea_Valley : 420 : Good hotel but needs improvement in services : Location is awesome. Food is good. But room service is not upto the mark sometimes.
 Tea_Valley : 421 : Value for money : A good property with courteous staff. Power problems are rampant and needs improvement. A good place for friends and family trips.
-Tea_Valley : 422 : Road connectivity : Road connectivity was not good
-Tea_Valley : 423 : Excellent Stay : Nice, cozy place to stay. Away from the noise of the town. Awesome views of the valley, full of Tea plants. Greenery all around. Resort is on the slopes of the valley. Nice food in the restaurant.
-Tea_Valley : 424 : Service : Its not value for money. Old building.
+Tea_Valley : 422 : Excellent : I stayed here for two nights the staff is very helpful. The place is very nice and quite.
+Tea_Valley : 423 : Excellent Stay : Good.
+Tea_Valley : 424 : Excellent location with Valley view : Resort is good and staffs are very friendly. Food bit expensive compared to other resorts. Location of the Resort is superb but roads are very narrow and no safety while driving. Experience drivers can handle. Overall good.
 Tea_Valley : 425 : Good Resort : Good hospitality, nice view, comfort stay
 Tea_Valley : 426 : Good experience : Nice Resort, good food. Reaching the Resort from Munnar City is a problem
 Tea_Valley : 427 : Excellent : Exotic location. Helpful staffs. One can spend whole day just by sitting at the balcony. Good food. Good for kids. Has small Park. Tree house. Different species of birds and plants can be found. Only the Road to reach the hotel is very narrow.

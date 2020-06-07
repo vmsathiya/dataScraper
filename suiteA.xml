@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="dataScrapper">
+<suite name="dataScraper" parallel="tests">
 <test name="Rivulet_Resort">
 	<parameter name="resortName" value="Rivulet_Resort"/>
 	<parameter name="resortID" value="20130819114553793"/>
@@ -24,4 +24,5 @@
         <class name="suite.dScraper" ></class>  
     </classes>
 </test>
+
 </suite>

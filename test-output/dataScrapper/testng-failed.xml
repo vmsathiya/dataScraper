@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [dataScrapper]">
-  <test thread-count="5" name="Rivulet_Resort(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dataScrapper]" parallel="tests">
+  <test thread-count="5" name="Rivulet_Resort(failed)" parallel="tests">
     <parameter name="resortName" value="Rivulet_Resort"/>
     <parameter name="resortID" value="20130819114553793"/>
-    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserName" value="Mozila"/>
     <classes>
       <class name="suite.dScraper">
         <methods>
@@ -15,32 +15,4 @@
       </class> <!-- suite.dScraper -->
     </classes>
   </test> <!-- Rivulet_Resort(failed) -->
-  <test thread-count="5" name="KTDC_Tea_County(failed)">
-    <parameter name="resortName" value="KTDC_Tea_County"/>
-    <parameter name="resortID" value="200706201515497476"/>
-    <parameter name="browserName" value="Chrome"/>
-    <classes>
-      <class name="suite.dScraper">
-        <methods>
-          <include name="dataScrapper"/>
-          <include name="afterTest"/>
-          <include name="setupDriver"/>
-        </methods>
-      </class> <!-- suite.dScraper -->
-    </classes>
-  </test> <!-- KTDC_Tea_County(failed) -->
-  <test thread-count="5" name="Munnar_Tea_Country(failed)">
-    <parameter name="resortName" value="Munnar_Tea_Country"/>
-    <parameter name="resortID" value="20150109094510946"/>
-    <parameter name="browserName" value="Chrome"/>
-    <classes>
-      <class name="suite.dScraper">
-        <methods>
-          <include name="dataScrapper"/>
-          <include name="afterTest"/>
-          <include name="setupDriver"/>
-        </methods>
-      </class> <!-- suite.dScraper -->
-    </classes>
-  </test> <!-- Munnar_Tea_Country(failed) -->
 </suite> <!-- Failed suite [dataScrapper] -->

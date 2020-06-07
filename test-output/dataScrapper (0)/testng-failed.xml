@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [dataScrapper (0)]">
-  <test thread-count="5" name="Misty_Mountain(failed)">
-    <parameter name="resortName" value="Misty_Mountain"/>
-    <parameter name="resortID" value="200902182015117181"/>
-    <parameter name="browserName" value="Chrome"/>
-    <classes>
-      <class name="suite.dScraper">
-        <methods>
-          <include name="dataScrapper"/>
-          <include name="afterTest"/>
-          <include name="setupDriver"/>
-        </methods>
-      </class> <!-- suite.dScraper -->
-    </classes>
-  </test> <!-- Misty_Mountain(failed) -->
-  <test thread-count="5" name="Tea_Valley(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dataScrapper (0)]" parallel="tests">
+  <test thread-count="5" name="Tea_Valley(failed)" parallel="tests">
     <parameter name="resortName" value="Tea_Valley"/>
     <parameter name="resortID" value="200805081709579510"/>
     <parameter name="browserName" value="Chrome"/>
@@ -29,4 +15,18 @@
       </class> <!-- suite.dScraper -->
     </classes>
   </test> <!-- Tea_Valley(failed) -->
+  <test thread-count="5" name="Misty_Mountain(failed)" parallel="tests">
+    <parameter name="resortName" value="Misty_Mountain"/>
+    <parameter name="resortID" value="200902182015117181"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="suite.dScraper">
+        <methods>
+          <include name="dataScrapper"/>
+          <include name="afterTest"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- suite.dScraper -->
+    </classes>
+  </test> <!-- Misty_Mountain(failed) -->
 </suite> <!-- Failed suite [dataScrapper (0)] -->

@@ -1,4 +1,4 @@
-Run below commands on different windows cmd session
+Run below commands on different windows cmd sessions
 
 Hub setup ->
 java -jar C:\Automation\jars\selenium-server-standalone-3.8.1.jar -role hub
@@ -9,4 +9,5 @@ java -Dwebdriver.gecko.driver="C:\Automation\drivers\geckodriver.exe" -Dwebdrive
 Node 2 setup-> 
 java -Dwebdriver.gecko.driver="C:\Automation\drivers\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Automation\drivers\chromedriver.exe" -jar C:\Automation\jars\selenium-server-standalone-3.8.1.jar -role node -nodeConfig C:\Automation\DevOps\node2.json
 
+Grid URL:
 http://localhost:4444/
